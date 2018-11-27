@@ -2,39 +2,649 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/base.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/vendor.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <meta name="author" content="Sega_Sissako">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+    <script src="%PUBLIC_URL%/js/jquery-2.1.3.min.js"></script>
+    <script src="%PUBLIC_URL%/js/modernizr.js"></script>
+    <script src="%PUBLIC_URL%/js/pace.min.js"></script>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Portfolio _ Sega Sissako</title>
   </head>
-  <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+</div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+ <nav id="main-nav-wrap">
+   <ul class="main-navigation">
+     <li class="current"><a class="smoothscroll"  href="#intro" title="">Acceuil</a></li>
+     <li><a class="smoothscroll"  href="#about" title="">A Propos</a></li>
+     <li><a class="smoothscroll"  href="#resume" title="">Experiences</a></li>
+     <li><a class="smoothscroll"  href="#portfolio" title="">Projets</a></li>
+     <li><a class="smoothscroll"  href="#services" title="">Services</a></li>
+     <li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
+   </ul>
+ </nav>
+</div> <!-- /top-bar -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+</div> <!-- /row -->
+</header> <!-- /header -->
+
+<!-- intro section
+================================================== -->
+<section id="intro">
+
+<div class="intro-overlay"></div>
+
+<div class="intro-content">
+<div class="row">
+
+ <div class="col-twelve">
+
+   <h5>Bienvenue</h5>
+   <h1>Je suis Sissako Sega.</h1>
+
+   <p class="intro-position">
+     <span>Développeur Web Junior</span>
+     <span>Freelance</span>
+   </p>
+
+   <a class="button stroke smoothscroll" href="#about" title="">A Propos</a>
+
+ </div>
+
+</div>
+</div> <!-- /intro-content -->
+
+<ul class="intro-social">
+  <li><a href="https://www.malt.fr/profile/segasissako"><img src="images/portfolio/i1y6drvcllqcfcigewva.png" style="height: 78px;
+    margin-bottom: -33px;"></a></li>
+  <li><a href="https://fr.linkedin.com/in/sega-sissako"><i class="fab fa-linkedin-in"></i></a></li>
+</ul> <!-- /intro-social -->
+
+</section> <!-- /intro -->
+
+
+<!-- about section
+================================================== -->
+<section id="about">
+
+<div class="row section-intro">
+<div class="col-twelve">
+
+ <h5>A propos de Sega</h5>
+
+ <div class="intro-info">
+
+   <img src="images/portfolio/djpx454geyorzeug8jcp.jpg" alt="Profile Picture">
+
+   <p class="lead">Jeune developpeur débutant .
+     J'ai suivi une formation intensive de 5 mois durant lesquels, j'ai pu concevoir et développer des applications web, d’intégrer les méthodes agiles de gestion de projet, comprendre et formaliser les besoins d’un client et donner du feedback clair et constructif. Maîtriser de Web App (HTML et CSS) en débutant avec  comme langage PHP.</p>
+ </div>
+
+</div>
+</div> <!-- /section-intro -->
+
+<div class="row about-content">
+
+<div class="col-six tab-full">
+
+ <h3>Profil</h3>
+ <p>J'ai travaillait sur 4 projets (1 fictif et 2 projets d'école a destination de clients réels, 1 projet actuel pour mon stage), hors contexte formation j'ai travaillait sur un projet E-Commerce (prestashop)
+   .</p>
+
+ <ul class="info-list">
+   <li>
+     <strong>Nom / Prénom:</strong>
+     <span>Sissako Sega ( comme la console)</span>
+   </li>
+   <li>
+     <strong>Age</strong>
+     <span>26 ans</span>
+   </li>
+   <li>
+     <strong>Job:</strong>
+     <span>Freelance, Développeur Web Junior</span>
+   </li>
+   <li>
+     <strong>Email:</strong>
+     <span>sgsissako@gmail.com </span>
+   </li>
+
+ </ul> <!-- /info-list -->
+
+</div>
+
+<div class="col-six tab-full">
+
+ <h3>Qualité technique</h3>
+ <ul class="skill-bars">
+    <li>
+     <div class="progress percent70"><span>70%</span></div>
+     <strong>Symfony</strong>
+    </li>
+    <li>
+     <div class="progress percent30"><span>30%</span></div>
+     <strong>Prestashop</strong>
+    </li>
+    <li>
+     <div class="progress percent30"><span>30%</span></div>
+     <strong>ReactJs</strong>
+    </li>
+    <li>
+     <div class="progress percent80"><span>80%</span></div>
+     <strong>PHP</strong>
+    </li>
+    <li>
+     <div class="progress percent80"><span>80%</span></div>
+     <strong>HTML</strong>
+    </li>
+    <li>
+     <div class="progress percent70"><span>70%</span></div>
+     <strong>CSS</strong>
+    </li>
+    <li>
+     <div class="progress percent50"><span>50%</span></div>
+     <strong>JQuery</strong>
+    </li>
+ </ul> <!-- /skill-bars -->
+
+</div>
+
+</div>
+
+<div class="row button-section">
+<div class="col-twelve">
+ <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Me Contactez</a>
+</div>
+</div>
+
+</section> <!-- /process-->
+
+
+<!-- resume Section
+================================================== -->
+<section id="resume" class="grey-section">
+
+<div class="row section-intro">
+<div class="col-twelve">
+
+ <h5>Experiences</h5>
+
+</div>
+</div> <!-- /section-intro-->
+
+<div class="row resume-timeline">
+
+<div class="col-twelve resume-header">
+
+ <h2>Projets</h2>
+
+</div> <!-- /resume-header -->
+
+<div class="col-twelve">
+
+ <div class="timeline-wrap">
+
+   <div class="timeline-block">
+
+     <div class="timeline-ico">
+       <i class="fa fa-graduation-cap"></i>
+     </div>
+
+     <div class="timeline-header">
+       <h3>Développeur FullStack ( Stagiaire )</h3>
+       <p>Février 2018 - Juin 2018</p>
+     </div>
+
+     <div class="timeline-content">
+       <h4>Happy-Capital ( Plateforme de Crowfunding et de conseil).</h4>
+       <p>- Création de fonctionnalité suivi utilisateur. </p>
+       <p>- Modification FrontEnd. </p>
+       <p>- Création de système de favoris avec envoi d'Email.</p>
+       <p>- Création de système de génération de PDF.</p>
+       <p>- Automatisation de système de validation  utilisateur.</p>
+       <p>- Création de page Statistiques avec ChartJS.</p>
+     </div>
+
+   </div> <!-- /timeline-block -->
+
+   <div class="timeline-block">
+
+     <div class="timeline-ico">
+       <i class="fa fa-graduation-cap"></i>
+     </div>
+
+     <div class="timeline-header">
+       <h3>Dévéloppeur FullStack </h3>
+       <p>Décembre 2017 - Février 2018</p>
+     </div>
+
+     <div class="timeline-content">
+       <h4>VivaVox (Plateforme de mise en relation entre conférenciers et organisateurs)</h4>
+       <p>- Création et gestion complete de l'inscription. </p>
+       <p>- Création d'un back-office organisateur.</p>
+       <p>- Intégration en FrontEnd.</p>
+     </div>
+
+   </div> <!-- /timeline-block -->
+
+   <div class="timeline-block">
+
+     <div class="timeline-ico">
+       <i class="fa fa-graduation-cap"></i>
+     </div>
+
+     <div class="timeline-header">
+       <h3>Développeur BackEnd</h3>
+       <p>Novembre 2017 - Décembre 2017</p>
+     </div>
+
+     <div class="timeline-content">
+       <h4>OuiProject ( Plateforme d'aide au StartUp)</h4>
+       <p>- Création d'un back-office porteur de projet.</p>
+       <p>- Création de fonctionnalité de gestion des derniers commentaires.</p>
+       <p>- Création de fonctionnalité de gestion des projets consultés.</p>
+     </div>
+
+   </div> <!-- /timeline-block -->
+
+   <div class="timeline-block">
+
+     <div class="timeline-ico">
+       <i class="fa fa-graduation-cap"></i>
+     </div>
+
+     <div class="timeline-header">
+       <h3>Développeur FrontEnd</h3>
+       <p>Septembre 2017</p>
+     </div>
+
+     <div class="timeline-content">
+       <h4>Moony ( Projet d'école )</h4>
+       <p>- Modification et intégration en Front</p>
+       <p>- Modification de contenu </p>
+     </div>
+
+   </div> <!-- /timeline-block -->
+
+ </div> <!-- /timeline-wrap -->
+
+</div> <!-- /col-twelve -->
+
+</div> <!-- /resume-timeline -->
+
+<div class="row resume-timeline">
+
+<div class="col-twelve resume-header">
+
+ <h2>Formation</h2>
+
+</div> <!-- /resume-header -->
+
+<div class="col-twelve">
+
+ <div class="timeline-wrap">
+
+   <div class="timeline-block">
+
+     <div class="timeline-ico">
+       <i class="fa fa-briefcase"></i>
+     </div>
+
+     <div class="timeline-header">
+       <h3>Bac +2 - Développeur web( Diplôme en cours d'obtention )</h3>
+       <p>Septembre 2017 - Fevrier 2018</p>
+     </div>
+
+     <div class="timeline-content">
+       <h4>Wild Code School ( Bordeaux )</h4>
+       <p>Formation intensive de 5 mois permettant de concevoir et développer des applications web, d’intégrer les méthodes agiles de gestion de projets avec des projets et clients réels.</p>
+     </div>
+
+   </div> <!-- /timeline-block -->
+
+ </div> <!-- /timeline-wrap -->
+
+</div> <!-- /col-twelve -->
+
+</div> <!-- /resume-timeline -->
+
+</section> <!-- /features -->
+
+
+<!-- Portfolio Section
+================================================== -->
+<section id="portfolio">
+
+<div class="row section-intro">
+<div class="col-twelve">
+
+ <h5>Portfolio</h5>
+ <h1>Une vision des différents projets.</h1>
+</div>
+</div> <!-- /section-intro-->
+
+<div class="row portfolio-content">
+
+<div class="col-twelve">
+
+ <!-- portfolio-wrapper -->
+    <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+     <div class="bgrid folio-item">
+          <div class="item-wrap">
+           <img src="images/vivavox.png" alt="VivaVox">
+             <a href="#modal-01" class="overlay">
+                <div class="folio-item-table">
+                 <div class="folio-item-cell">
+                  <h3 class="folio-title">VivaVox</h3>
+                  <span class="folio-types">
+                     Vivavox
+                  </span>
+              </div>
+                </div>
+             </a>
+          </div>
+       </div> <!-- /folio-item -->
+
+       <div class="bgrid folio-item">
+          <div class="item-wrap">
+           <img src="images/ouiproject1.png" alt="OuiProject">
+           <a href="#modal-02" class="overlay">
+                <div class="folio-item-table">
+                 <div class="folio-item-cell">
+                   <h3 class="folio-title">OuiProject</h3>
+                 <span class="folio-types">
+                     OuiProject
+                 </span>
+              </div>
+                </div>
+             </a>
+          </div>
+       </div> <!-- /folio-item -->
+
+       <div class="bgrid folio-item">
+          <div class="item-wrap">
+           <img src="images/moony.png"alt="Moony">
+             <a href="#modal-03" class="overlay">
+                <div class="folio-item-table">
+                 <div class="folio-item-cell">
+                   <h3 class="folio-title">Moony</h3>
+                 <span class="folio-types">
+                     Moony
+                 </span>
+              </div>
+                </div>
+             </a>
+          </div>
+       </div> <!-- /folio-item -->
+
+       <!-- modal popups - begin
+       ============================================================= -->
+       <div id="modal-01" class="popup-modal slider mfp-hide">
+
+       <div class="media">
+         <img src="images/vivavox.png" alt="vivavox" />
+       </div>
+
+      <div class="description-box">
+         <h4>VivaVox</h4>
+         <p>Plateforme de mise en relation entre conférenciers et organisateurs</p>
+
+      </div>
+
+        <div class="link-box">
+           <a href="https://vivavox.fr/">Voir le site</a>
+         <a href="#" class="popup-modal-dismiss">Fermer</a>
+        </div>
+
+    </div> <!-- /modal-01 -->
+
+    <div id="modal-02" class="popup-modal slider mfp-hide">
+
+       <div class="media">
+         <img src="images/ouiproject1.png" alt="ouiproject" />
+       </div>
+
+      <div class="description-box">
+         <h4>OuiProject</h4>
+      </div>
+
+        <div class="link-box">
+         <a href="#" class="popup-modal-dismiss">Fermer</a>
+        </div>
+
+    </div> <!-- /modal-02 -->
+
+    <div id="modal-03" class="popup-modal slider mfp-hide">
+
+       <div class="media">
+         <img src="images/moony.png" alt="Moony" />
+       </div>
+
+      <div class="description-box">
+         <h4>Moony</h4>
+      </div>
+
+        <div class="link-box">
+         <a href="#" class="popup-modal-dismiss">Fermer</a>
+        </div>
+
+    </div> <!-- /modal-03 -->
+
+    <!-- modal popups - end
+       ============================================================= -->
+
+    </div> <!-- /portfolio-wrapper -->
+
+</div>  <!-- /twelve -->
+
+</div> <!-- /portfolio-content -->
+
+</section> <!-- /portfolio -->
+
+<!-- stats Section
+================================================== -->
+<section id="stats" class="count-up">
+
+<div class="row">
+<div class="col-twelve">
+
+ <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+   <div class="bgrid stat">
+
+     <div class="icon-part">
+       <i class="icon-pencil-ruler"></i>
+     </div>
+
+     <h3 class="stat-count">
+       4
+     </h3>
+
+     <h5 class="stat-title">
+       Projets
+     </h5>
+
+   </div> <!-- /stat -->
+
+   <div class="bgrid stat">
+
+     <div class="icon-part">
+       <i class="icon-users"></i>
+     </div>
+
+     <h3 class="stat-count">
+       3
+     </h3>
+
+     <h5 class="stat-title">
+       Clients Heureux
+     </h5>
+
+   </div> <!-- /stat -->
+
+   <div class="bgrid stat">
+
+     <div class="icon-part">
+       <i class="icon-cup"></i>
+     </div>
+
+     <h3 class="stat-count">
+       1134
+     </h3>
+
+     <h5 class="stat-title">
+       Tasse de café
+     </h5>
+
+   </div> <!-- /stat -->
+
+ </div> <!-- /stats-list -->
+
+</div> <!-- /twelve -->
+</div> <!-- /row -->
+
+</section> <!-- /stats -->
+
+
+<!-- contact
+================================================== -->
+<section id="contact">
+
+<div class="row section-intro">
+<div class="col-twelve">
+
+ <h5>Contact</h5>
+ <h1>Je suis a l'écoute de vos propositions de projets</h1>
+</div>
+</div> <!-- /section-intro -->
+
+<div class="row contact-form">
+
+<div class="col-twelve">
+
+     <!-- form -->
+     <form name="contactForm" id="contactForm" method="post" action="">
+     <fieldset>
+
+           <div class="form-field">
+        <input name="contactName" type="text" id="contactName" placeholder="Nom" value="" minlength="2" required="">
+           </div>
+           <div class="form-field">
+          <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+          </div>
+           <div class="form-field">
+          <input name="contactSubject" type="text" id="contactSubject" placeholder="Sujet" value="">
+          </div>
+           <div class="form-field">
+             <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+          </div>
+          <div class="form-field">
+              <button class="submitform">Envoyé</button>
+              <div id="submit-loader">
+                 <div class="text-loader">envoi en cours...</div>
+             <div class="s-loader">
+             <div class="bounce1"></div>
+             <div class="bounce2"></div>
+             <div class="bounce3"></div>
+         </div>
+       </div>
+           </div>
+
+     </fieldset>
+   </form> <!-- Form End -->
+
+     <!-- contact-warning -->
+     <div id="message-warning">
+     </div>
+     <!-- contact-success -->
+   <div id="message-success">
+        <i class="fa fa-check"></i>Votre message a bien était envoyé!<br>
+   </div>
+
+  </div> <!-- /col-twelve -->
+
+</div> <!-- /contact-form -->
+
+<div class="row contact-info">
+
+<div class="col-four tab-full collapse">
+
+ <div class="icon">
+   <i class="icon-mail"></i>
+ </div>
+
+ <h5>Email</h5>
+
+ <p>sgsissako@gmail.com<br>
+  </p>
+
+</div>
+
+<!-- <div class="col-four tab-full">
+
+ <div class="icon">
+   <i class="icon-phone"></i>
+ </div>
+
+ <h5>Me contactez</h5>
+
+ <p>Mobile: 06.<br>
+  </p>
+
+</div> -->
+
+</div> <!-- /contact-info -->
+
+</section> <!-- /contact -->
+
+
+<!-- footer
+================================================== -->
+
+<footer>
+<div class="row">
+
+ <div class="col-six tab-full pull-right social">
+
+   <ul class="footer-social">
+     <li><a href="https://www.malt.fr/profile/segasissako"><img src="images/portfolio/i1y6drvcllqcfcigewva.png" style="height: 78px;
+       margin-bottom: -33px;"></a></li>
+     <li><a href="https://fr.linkedin.com/in/sega-sissako"><i class="fab fa-linkedin-in"></i></a></li>
+  </ul>
+
+ </div>
+
+ <div class="col-six tab-full">
+   <div class="copyright">
+       <span>© Copyright Sissako Sega.</span>
+      </div>
+   </div>
+
+   <div id="go-top">
+      <a class="smoothscroll" title="Back to Top" href="#top"><i class="fas fa-long-arrow-alt-up"></i></a>
+   </div>
+
+ </div> <!-- /row -->
+</footer>
+
+<div id="preloader">
+<div id="loader"></div>
+</div>
+
+<!-- Java Script
+================================================== -->
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
 </html>
