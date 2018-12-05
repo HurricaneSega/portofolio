@@ -258,7 +258,6 @@
 		         $('#message-warning').fadeIn();
 
 		      }
-					console.log();
 
 	      });
   		}
