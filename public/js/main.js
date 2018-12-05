@@ -234,7 +234,6 @@
 		      	sLoader.fadeIn();
 
 		      },
-					console.log();
 		      success: function(msg) {
 
 	            // Message was sent
@@ -259,6 +258,7 @@
 		         $('#message-warning').fadeIn();
 
 		      }
+					console.log();
 
 	      });
   		}
