@@ -46,7 +46,7 @@ if($_POST) {
 
    if (!$error) {
 
-      ini_set("sendEmail_from", $siteOwnersEmail); // for windows server
+      ini_set("sendmail_from", $siteOwnersEmail); // for windows server
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
 
 		if ($mail) { echo "OK"; }
@@ -61,6 +61,7 @@ if($_POST) {
 		$response .= (isset($error['message'])) ? $error['message'] . "<br />" : null;
 
 		echo $response;
+    var_dump($response);
 
 	} # end if - there was a validation error
 
