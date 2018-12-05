@@ -234,7 +234,6 @@
 		      	sLoader.fadeIn();
 
 		      },
-					console.log(url);
 					console.log();
 		      success: function(msg) {
 
